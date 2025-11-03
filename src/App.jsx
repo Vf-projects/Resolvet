@@ -1,16 +1,16 @@
-import React from "react";
-import StudentDashboard from "./pages/StudentDashboard";
-import AdminDashboard from "./pages/AdminDashboard";
+import React from 'react'
+import SuperAdminDashboard from './pages/superAdmin/SuperAdmin'
 import { ThemeProvider } from "./context/ThemeContext";
 
 const App = () => {
-
   return (
-    <ThemeProvider>
-      {/* <StudentDashboard /> */}
-      <AdminDashboard />
-    </ThemeProvider>
-  );
+    <>
+      <ThemeProvider>
+        <SuperAdminDashboard />
+
+      </ThemeProvider>
+    </>
+  )
 }
 
-export default App;
+export default App

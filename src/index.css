@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme{
+  --breakpoint-6: 300px;
+  --breakpoint-xs: 350px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-beforeTablet: 800px;
+  --breakpoint-laptop: 1024px;
+}
+
 body{
   overflow-x: hidden;
+  background-color: #f0eeee;
 }
